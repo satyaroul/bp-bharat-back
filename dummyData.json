@@ -1,0 +1,134 @@
+/* billing json */
+{
+  "ac_id": 1,
+  "ac_name": "Satya",
+  "ac_address": "sisua, salipur",
+  "ac_mobile": "7008581966",
+  "taxable_amt": 1000.4,
+  "bill_id_prefix": "sp",
+  "gst": 100.0,
+  "cgst": 50.0,
+  "sgst": 50.0,
+  "discount": 0.0,
+  "total_amt": 1100.4,
+  "bill_items": [
+    {
+      "item_name": "mg300",
+      "uom": "pkt",
+      "sale_date" : "2021-02-15",
+      "pack": 3,
+      "qty_free": 18,
+      "rate": 138.09,
+      "amount": 2485.622,
+      "discount": 0.0,
+      "discount_amt": 0.0
+    },
+    {
+        "item_name": "mg400",
+        "uom": "pkt",
+        "sale_date" : "2021-02-15",
+        "pack": 3,
+        "qty_free": 15,
+        "rate": 200,
+        "amount": 3000,
+        "discount": 0.0,
+        "discount_amt": 0.0
+      },
+      {
+        "item_name": "gd35",
+        "uom": "pkt",
+        "sale_date" : "2021-02-15",
+        "pack": 3,
+        "qty_free": 10,
+        "rate": 30,
+        "amount": 300,
+        "discount": 0.0,
+        "discount_amt": 0.0
+      }
+  ]
+}
+
+/* Items */
+
+{
+  "product_name": "GD65",
+  "mfg_group_code": "BR",
+  "uom": "pkt",
+  "packing_type": "CBB",
+  "packing_qty": 10,
+  "hsn_code": "AKSK",
+  "gst": "18",
+  "sgst": "9",
+  "cgst": "9",
+  "discount": "3",
+  "discount_amount": "30",
+  "price_per_unit": 10,
+  "final_price": 100,
+  "isActive": 1
+  }
+
+/* Accounts */
+
+{
+  "account_name": "Satya",
+  "account_group" : "",
+  "account_type" : "",
+  "address" : "Sisua",
+  "gstn" : "asdfghj124567asdf",
+  "mobile_no" : "1234567890",
+  "beat_area" : "Salipur",
+}
+
+
+{
+  "ac_id" : 2,
+  "ac_name":"Lucky",
+  "ac_address":"Sisua",
+  "ac_mobile":"1234567890",
+  "date":"",
+  "discount":100,
+  "basic_amt":5750,
+  "taxable_amt":5650,
+  "total_amt":6667,
+  "bill_id_prefix":"BR",
+  "cgst":508.5,
+  "sgst":508.5,
+  "bill_items":[
+    {
+      "item_id":6,
+      "item_name":"MG300",
+      "hsn":"AKSK",
+      "pack":10,
+      "uom":"pkt",
+      "qty":100,
+      "free":0,
+      "discount":100,
+      "discount_rate":10,
+      "basic_amount":1000,
+      "taxable_amount":900,
+      "price_per_unit":10,
+      "unit_per_pack":10,
+      "gst":18,
+      "net_amount":1062,
+      "gst_val":162
+    },
+    {
+      "item_id":7,
+      "item_name":"Luvit Goodies",
+      "hsn":"1905",
+      "pack":10,
+      "uom":"Jar",
+      "qty":50,
+      "free":0,
+      "discount":0,
+      "discount_rate":0,
+      "basic_amount":4750,
+      "taxable_amount":4750,
+      "price_per_unit":95,
+      "unit_per_pack":5,
+      "gst":18,
+      "net_amount":5605,
+      "gst_val":855
+    }
+  ]
+}
